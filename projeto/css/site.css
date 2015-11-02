@@ -1,0 +1,133 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    line-height: 20px;
+}
+
+div {
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+    background: #851944;
+    text-align: center;
+    padding: 25px;
+    border-bottom:10px solid #000000;
+    text-transform: uppercase;
+}
+
+main a {
+    color:#851944;
+}
+
+main div {
+    padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic:
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    clear:both;
+}
+    
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+    
+
+.navegacao {
+    background:#3C1D3D;
+    color: #F2FFFC;
+    padding: 10px;
+}
+
+.navegacao h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+ul li a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 10px;
+}
+
+.rodape-pagina {
+    background:#000000;
+    color:#F2FFFC;
+    padding: 10px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rede-social li {
+    display:inline-block;
+}
+
+.rede-social a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+main {
+    width: 85%;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.foto,
+aside {
+    width: 15%;
+    float: right;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
+    text-align: center;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    position: relative;
+    top: 250px;
+}
+
+.foto {
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

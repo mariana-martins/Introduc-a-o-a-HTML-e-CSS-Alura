@@ -1,0 +1,19 @@
+.fiat {
+    background: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    float: right;
+}
+
+.petrobras {
+    background: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    float: left;
+}
